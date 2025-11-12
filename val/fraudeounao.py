@@ -2,7 +2,7 @@ qtd_inicial = int(input('Insira a quantidade de produtos: '))
 veridico = 0
 fraude = 0
 
-for i in range(qtd_inicial + 1):
+for i in range(qtd_inicial):
     preco_inicial = float(input('Insira o preço antes da promoção: '))
     preco_promocao = float(input('Insira o preço na promoção:'))
 
