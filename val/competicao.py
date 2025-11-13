@@ -1,6 +1,6 @@
 def competicao():
     total = 1000000000
-    for i in range(100):
+    for i in range(3):
         nome = input('Insira o nome do competidor: ')
         hora = int(input('Insira as horas: '))
         minuto = int(input('Insira os minutos: '))
@@ -18,4 +18,4 @@ def competicao():
 
 final_hour, final_minute, final_second, winner = competicao()
 
-print(f'{winner} levou {final_hour} horas, {final_minute} minutos e {final_second} e ganhou a competição!')
+print(f'{winner} levou {final_hour} horas, {final_minute} minutos, {final_second} segundos e ganhou a competição!')

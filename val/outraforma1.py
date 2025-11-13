@@ -1,5 +1,6 @@
 """
-código original
+código original ->
+
 quantidade = 1
 numero = int(input('Número: '))
 maior = numero

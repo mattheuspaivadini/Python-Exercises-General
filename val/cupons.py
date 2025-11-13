@@ -9,6 +9,7 @@ cupons_faltantes = 0
 while cupons_estoque > 0:
     valor_compra = float(input('Insira o valor de sua compra: '))
     cupons_esperados = quantidade_cupons(valor_compra)
+    
     if valor_compra < 50:
         print('Valor insuficiente para um cupom (valor mínimo: R$ 50,00)')
 
